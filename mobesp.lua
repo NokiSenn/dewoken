@@ -1,4 +1,4 @@
-if getgenv().Destroy2 then error('getgenv dest') end
+if getgenv().Destroy2 then error('alr exist') end
 
 local Enabled, findFirstChildOfClass, floor, clamp = true, game.FindFirstChildOfClass, math.floor, math.clamp
 local function GetHeldTool(Character)
